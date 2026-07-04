@@ -1,0 +1,31 @@
+# Build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Embedded build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+*.o
+*.obj
+*.d
+*.a
+
+# Local editor and tooling state
+.vscode/
+.idea/
+.agents/
+.codex/
+
+# Temporary files
+tmp.txt
+*.log
+*.tmp
+*.bak
+*~
