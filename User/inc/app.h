@@ -4,7 +4,7 @@
 extern "C" {
 #endif
 
-void APP_Init(void);
+void APP__Init(void);
 
 #ifdef __cplusplus
 }

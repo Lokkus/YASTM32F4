@@ -1,6 +1,7 @@
 #include "bsp.h"
 
 #include "main.h"
+#include "rtc_clock.h"
 
 static void BSP_SystemClock_Config(void);
 static void BSP_GPIO_Init(void);
@@ -10,6 +11,7 @@ void BSP_Init(void)
     HAL_Init();
     BSP_SystemClock_Config();
     BSP_GPIO_Init();
+    RTC_CLOCK_Init();
 }
 
 static void BSP_SystemClock_Config(void)
